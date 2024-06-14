@@ -20,3 +20,17 @@ h1{
     text-align: center;
 }
 
+p{
+    font-size: 14px;
+    padding: 0px 5px;
+}
+ol{
+   padding: 5px;
+}
+ul{
+    padding: 5px;
+}
+li{
+    font-size: 14px;
+}
+
