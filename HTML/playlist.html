@@ -5,19 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my playlist</title>
 </head>
-<body style=" align-items: center; justify-content: center; text-align:center;">
-    <div class="conatainer" style="width: 350px; border: 1px solid red; text-align: center;">
+
+<style>
+    .container{
+        /* display: flex; */
+        margin: 10% auto;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid red;
+        border-radius: 20px;
+        width: 350px;
+        text-align: center;
+        background-image: linear-gradient(to right top, #990787, #d91667, #f65a40, #f39b1a, #d6d62e);
+    }
+
+    h1{
+        font-size: 2rem;
+        color: blueviolet;
+    }
+    audio{
+        border: 1px solid red;
+        border-radius: 50px;
+    }
+    #player{
+        
+    }
+</style>
+<body >
+    <div class="container">
 
         <h1 style="text-align: center;">My PlayList</h1>
         <hr>
         <div class="song">
-            <audio src="../01 Chanda Sitare - MyMp3Song.com.mp3" controls></audio>
+            <audio id="player" src="./01 Chanda Sitare - MyMp3Song.com.mp3" controls>Chand Sitare</audio>
             <hr>
-            <audio src="../Bantai Ki Public_320(PagalWorld.com.sb).mp3" controls></audio>
+            <audio id="player" src="../Bantai Ki Public_320(PagalWorld.com.sb).mp3" controls></audio>
             <hr>
-            <audio src="../Kaam 25 - Divine.mp3" controls></audio>
+            <audio id="player" src="../Kaam 25 - Divine.mp3" controls></audio>
             <hr>
-            <audio src="../mantra-om-sound-music-spiritual-frequency-11-12236.mp3" controls></audio>
+            <audio  id="player" src="../mantra-om-sound-music-spiritual-frequency-11-12236.mp3" controls></audio>
             <!-- <audio src="../" controls></audio>
             <audio src="../" controls></audio> -->
         </div>
