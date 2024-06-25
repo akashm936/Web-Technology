@@ -16,7 +16,11 @@
         border-radius: 20px;
         width: 350px;
         text-align: center;
-        background-image: linear-gradient(to right top, #990787, #d91667, #f65a40, #f39b1a, #d6d62e);
+        /* background-image: linear-gradient(to right top, #990787, #d91667, #f65a40, #f39b1a, #d6d62e);
+        background-image: linear-gradient( top, #744,); */
+        background: rgb(2,0,36);
+
+        background: linear-gradient(159deg, rgb(34, 31, 105) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     }
 
     h1{
@@ -27,9 +31,9 @@
         border: 1px solid red;
         border-radius: 50px;
     }
-    #player{
+    /* #player{
         
-    }
+    } */
 </style>
 <body >
     <div class="container">
@@ -37,7 +41,7 @@
         <h1 style="text-align: center;">My PlayList</h1>
         <hr>
         <div class="song">
-            <audio id="player" src="./01 Chanda Sitare - MyMp3Song.com.mp3" controls>Chand Sitare</audio>
+            <audio id="player" src="./01 Chanda Sitare - MyMp3Song.com.mp3" controls autoplay>Chand Sitare</audio>
             <hr>
             <audio id="player" src="../Bantai Ki Public_320(PagalWorld.com.sb).mp3" controls></audio>
             <hr>
