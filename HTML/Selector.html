@@ -5,14 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Combination Selector</title>
 </head>
-<body>
 
-    <div class="conatiner">
+<style>
+    .container{
+        width: 60%;
+        height: 80%;
+        border: 2px solid black;
+        margin:  auto;
+    }
+    .container >p{
+        background-color: black;
+        color: blueviolet;
+    }
+
+    .container >div {
+        background-color: burlywood;
+    }
+    .container >div >h1{
+        background-color: yellow;
+    }
+    .container div >p{
+        background-color: cadetblue;
+    }
+
+    .container #grandchild h1{
+        background-color: tomato;
+    }
+
+
+
+    .container {
+        
+    }
+</style>
+<body>
+    
+
+    <div class="container">
         <p>Akash</p>
         <p>Gourav</p>
         <p>Ganesh</p>
         <div>
             <h1>MSS's College of Engineering And Technology, jalna</h1>
+            <p>Computer Science And Engineeing</p>
+            <div id="grandchild">
+                <h1>Bye Bye!!!</h1>
+            </div>
         </div>
     </div>
     
